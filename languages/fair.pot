@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv2.
 msgid ""
 msgstr ""
-"Project-Id-Version: FAIR - Federated and Independent Repositories 0.1\n"
-"Report-Msgid-Bugs-To: https://github.com/fairpm/fair-plugin/issues\n"
+"Project-Id-Version: FAIR - Federated and Independent Repositories 0.3.0\n"
+"Report-Msgid-Bugs-To: https://github.com/vagelisp/fair-plugin/issues\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-06-16T16:26:12+00:00\n"
+"POT-Creation-Date: 2025-07-02T18:23:56+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: fair\n"
@@ -29,26 +29,26 @@ msgstr ""
 msgid "FAIR Contributors"
 msgstr ""
 
-#: inc/avatars/namespace.php:93
+#: inc/avatars/namespace.php:98
 msgid "Choose Profile Image"
 msgstr ""
 
-#: inc/avatars/namespace.php:94
+#: inc/avatars/namespace.php:99
 msgid "Remove Profile Image"
 msgstr ""
 
-#: inc/avatars/namespace.php:97
+#: inc/avatars/namespace.php:102
 msgid "Upload a custom profile picture for your account."
 msgstr ""
 
 #. translators: %s: Name of person in profile picture
-#: inc/avatars/namespace.php:244
-#: inc/avatars/namespace.php:260
+#: inc/avatars/namespace.php:251
+#: inc/avatars/namespace.php:267
 #, php-format
 msgid "profile picture for %s"
 msgstr ""
 
-#: inc/avatars/namespace.php:256
+#: inc/avatars/namespace.php:263
 msgctxt "alt for unknown avatar user"
 msgid "profile picture for user"
 msgstr ""
@@ -63,100 +63,110 @@ msgstr ""
 msgid "No credits could be found."
 msgstr ""
 
-#: inc/dashboard-widgets/namespace.php:94
+#: inc/dashboard-widgets/namespace.php:98
 msgid "Unable to fetch events (parse error)."
 msgstr ""
 
-#: inc/dashboard-widgets/namespace.php:101
+#: inc/dashboard-widgets/namespace.php:105
 msgctxt "default event location"
 msgid "Online"
 msgstr ""
 
 #. translators: If a Rosetta site exists (e.g. https://es.fair.pm/news/), then use that. Otherwise, leave untranslated.
-#: inc/dashboard-widgets/namespace.php:173
+#: inc/dashboard-widgets/namespace.php:177
 msgctxt "Events and News dashboard widget"
 msgid "https://fair.pm/"
 msgstr ""
 
-#: inc/dashboard-widgets/namespace.php:186
+#: inc/dashboard-widgets/namespace.php:178
+msgid "News"
+msgstr ""
+
+#. translators: Hidden accessibility text.
+#: inc/dashboard-widgets/namespace.php:180
+#: inc/dashboard-widgets/namespace.php:192
+msgid "(opens in a new tab)"
+msgstr ""
+
+#: inc/dashboard-widgets/namespace.php:190
 msgid "Events (by The WP World)"
 msgstr ""
 
-#: inc/settings/namespace.php:46
-#: inc/settings/namespace.php:47
-#: inc/settings/namespace.php:71
+#: inc/settings/namespace.php:48
+#: inc/settings/namespace.php:49
+#: inc/settings/namespace.php:73
 msgid "FAIR Settings"
 msgstr ""
 
-#: inc/settings/namespace.php:60
+#: inc/settings/namespace.php:62
 msgid "You do not have sufficient permissions to access this page."
 msgstr ""
 
 #. translators: %s: AspirePress website URL
-#: inc/settings/namespace.php:74
+#: inc/settings/namespace.php:78
 #, php-format
 msgid "Your site is now disconnected from WordPress.org managed servers and uses a dedicated mirror from %s. In the coming weeks and months, we'll be making the mirror configurable and add in the ability to add your own."
 msgstr ""
 
 #. translators: %1$s: FAIR GitHub URL, %2$s: FAQ URL
-#: inc/settings/namespace.php:79
+#: inc/settings/namespace.php:87
 #, php-format
 msgid "If you want to learn more, check out the %1$s and our %2$s."
 msgstr ""
 
-#: inc/settings/namespace.php:86
+#: inc/settings/namespace.php:96
 msgid "Save Settings"
 msgstr ""
 
-#: inc/settings/namespace.php:107
+#: inc/settings/namespace.php:117
 msgid "Avatar Settings"
 msgstr ""
 
-#: inc/settings/namespace.php:112
+#: inc/settings/namespace.php:122
 msgid "Avatar Source"
 msgstr ""
 
-#: inc/settings/namespace.php:124
+#: inc/settings/namespace.php:134
 msgid "Avatars will be loaded from the selected source."
 msgstr ""
 
-#: inc/settings/namespace.php:167
+#: inc/settings/namespace.php:177
 msgid "FAIR Avatars"
 msgstr ""
 
-#: inc/settings/namespace.php:168
+#: inc/settings/namespace.php:178
 msgid "Gravatar"
 msgstr ""
 
-#: inc/settings/namespace.php:182
+#: inc/settings/namespace.php:192
 msgid "Settings saved successfully."
 msgstr ""
 
 #. translators: %s: theme name
-#: inc/updater/class-lite.php:391
+#: inc/updater/class-lite.php:397
 #, php-format
 msgid "There is a new version of %s available."
 msgstr ""
 
 #. translators: 1: opening anchor with version number, 2: closing anchor tag, 3: opening anchor with update URL
-#: inc/updater/class-lite.php:402
+#: inc/updater/class-lite.php:408
 #, php-format
 msgid "View version %1$s details%2$s or %3$supdate now%2$s."
 msgstr ""
 
 #. translators: %s: theme name
-#: inc/updater/class-lite.php:407
+#: inc/updater/class-lite.php:413
 #, php-format
 msgid "%s: update now"
 msgstr ""
 
 #. translators: 1: opening anchor with version number, 2: closing anchor tag, 3: opening anchor with update URL
-#: inc/updater/class-lite.php:414
+#: inc/updater/class-lite.php:420
 #, php-format
 msgid "View version %1$s details%2$s."
 msgstr ""
 
-#: inc/updater/class-lite.php:419
+#: inc/updater/class-lite.php:425
 msgid "Automatic update is unavailable for this theme."
 msgstr ""
 
